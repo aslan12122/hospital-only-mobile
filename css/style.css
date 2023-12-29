@@ -72,8 +72,8 @@ header h1 {
 }
 .cd-image-container > img {
   display: block;
-  /* height: auto; */
-  height: inherit;
+  height:320px;
+
 }
 
 .cd-image-label {
