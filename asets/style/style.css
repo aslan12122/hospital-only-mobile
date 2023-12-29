@@ -1586,7 +1586,7 @@ width: 250px;
         display: flex;
         flex-direction: column;
         align-self: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: auto;
         
     }
@@ -1615,8 +1615,8 @@ width: 250px;
         width: 100%;
 
     }
-    .mycard{
-        margin-bottom: 100px;
+    .container1 .mycard{
+        margin: 100px 0px;
     }
 }
 
