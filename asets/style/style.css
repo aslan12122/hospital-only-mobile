@@ -1770,3 +1770,8 @@ width: 250px;
 .textAlignLeft{
     text-align: left;
 }
+
+.bageTrAfter {
+    font-size: 15px;
+    font-weight: 300;
+}

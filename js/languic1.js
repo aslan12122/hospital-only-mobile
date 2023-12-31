@@ -82,6 +82,7 @@ const translations={
       tÜrkçe:'Türkçe',
       work:'Sonuçlar',
       feed:'Yorumlar',
+      find:'doctorlar',
       serr:'Servislerimiz',
       services:'Taşıma araçları',
       testi:'Yorumlar',
