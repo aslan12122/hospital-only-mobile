@@ -45,7 +45,7 @@ const translations={
       serr:'خدماتنا',
       articles:'المقالات',
       find:'الدكاترة',
-      service:'خدماتنا',
+      services:'خدماتنا',
       testi:'التعليقات',
       gallery:'المعرض',
       work:'اعمالنا',
