@@ -114,5 +114,18 @@ const setLanguage = (language) => {
     const translationKey = element.getAttribute("data-i18n");
     element.textContent = translations[language][translationKey];
   });
-  // document.dir = language === "ar" ? "rtl" : "ltr";
+  if(document.dir = language === "ar"){
+    const Addrtl2 = document.getElementById('Addrtl2');
+
+
+    
+      Addrtl2.classList.add("textAlignRight");
+    
+   
+  }
+  else{
+    Addrtl2.classList.remove("textAlignRight");
+
+    
+  }
 };

@@ -1681,7 +1681,7 @@ width: 250px;
 
 
 
-@media(max-width:550px){
+@media(max-width:600px){
     .bigCountainer{
         width: 95%;
         margin: auto;
@@ -1741,9 +1741,32 @@ width: 250px;
         text-align: center;
         width: 150px;
     }
+    .con {
+     
+        width: 90%;
+        margin: 50px auto;
+    
+    }
+    .con h2 {
+        font-size: 30px;
+    }
+    .con img {
+        height: 350px;
+    }
 }
 
 
+/* arabic styles */
+.rtl{
+    direction: rtl;
+}
 
-
-
+.ltr{
+    direction: ltr;
+}
+.textAlignRight{
+    text-align: right;
+}
+.textAlignLeft{
+    text-align: left;
+}
