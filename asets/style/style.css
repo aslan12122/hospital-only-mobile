@@ -47,6 +47,12 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+select{
+    /* width: 100px; */
+    margin-right: -17px;
+    margin-top: 20px;
+    color: #dc717d;
+  }
 
 .logo img{
 
@@ -90,10 +96,10 @@ body{
     font-weight: 800;
     transition: all ease 0.3s;
     
-    margin: 40px;
+    /* margin: 40px; */
     font-size: 17px;  
     margin-bottom: 10px;  
-    margin:35px;
+    margin:22px;
     
     
 }
@@ -273,6 +279,11 @@ color:#ed9e01 ;
     opacity: 1;
     margin-top: -50px;
 }
+.container1 .mycard:hover .cdetail h2{
+    color: #eca30f;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 
 /* ////our-story //////////////////*/
@@ -304,7 +315,7 @@ color:#ed9e01 ;
 
 }
 .our-story-text h2{
-    font-size:40px ;
+    font-size:35px ;
     color: #966a10;
     line-height: 3rem;
 }
@@ -570,9 +581,31 @@ color:#ed9e01 ;
 }
 
 
-/*  */
+/*//////// art/////////// */
+.con {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
 
+}
+.con img{
+    
+margin: auto;
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+.con h2{
 
+  text-align: center;
+    font-size: 40px;
+    color: #966a10;
+   width: 100%;
+   margin-bottom: 2rem;
+}
 
 /**************** form********* */
 .form-h1{
@@ -735,6 +768,14 @@ footer{
 width: 250px;
 
 }
+.cd-image-container .cd-image-label{
+    color: #eca30f;
+    font-size: 20px;
+}
+.cd-image-container .d-image-label{
+    font-size: 20px;
+    color: #eca30f;
+}
 
 
 @media(max-width:800px){ 
@@ -746,6 +787,71 @@ width: 250px;
     }
 
 }
+/* select option */
+   /* Style the custom select container */
+   .custom-select11 {
+    position: relative;
+    width: 200px;
+  }
+
+  /* Style the custom select */
+  .custom-select11 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0000009a;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+
+  /* Style the arrow icon */
+  .custom-select11::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    font-size: 14px;
+    position: absolute;
+    top: 65%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  /* Change border color on hover and focus */
+  .custom-select11:hover select,
+  .custom-select11 select:focus {
+    border-color:  #eca30f;
+  }
+
+  /* Style the options */
+  .custom-select11 select option {
+    padding: 10px;
+    color: #ffffff; /* Change the option text color to orange */
+    background-color: #000000;
+  }
+
+@media (max-width:950px) {
+    .custom-select11 {
+      width: 100px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  */
 
@@ -1195,10 +1301,10 @@ width: 250px;
       
     }
     .our1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .our2{
-        font-size: 30px;
+        font-size: 40px;
         margin-left: 40px;
     }
     .card-h3{
@@ -1260,13 +1366,13 @@ width: 250px;
        margin-left: 50px;
     }
     .our1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .our2{
-        font-size: 30px;
+        font-size: 40px;
     }
     .card-h3{
-        font-size: 30px;
+        font-size: 40px;
     }
     .ou3{
         width: 175px;
@@ -1311,13 +1417,13 @@ width: 250px;
         height: 120px;
     }
     .our1{
-        font-size: 20px;
+        font-size: 40px;
     }
     .our2{
-        font-size: 20px;
+        font-size: 40px;
     }
     .card-h3{
-        font-size: 20px;
+        font-size: 40px;
     }
     .ou3{
         width: 175px;

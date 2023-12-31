@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <!-- title==================================================== -->
-    <title>shaba</title>
+    <title>Reyhan-Hair</title>
     <!-- Fav icon////////////////////////////////////////// -->
-    <link rel="icon" href="/asets/images/logo.jpeg">
+    <link rel="icon" href="asets/images/logo.jpeg">
     <!-- Import-poppins-font =========================-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,6 +49,7 @@
         
     <!--/////////////////////// nav////////////////////////////////// -->
         <nav class="navigation">
+           
             <!-- menu-btn -->
             <input type="checkbox" class="menu-btn" id="menu-btn">
             <label for="menu-btn" class="menu-icon">
@@ -61,15 +62,24 @@
     <!--/////////////////menu/////////////// -->
         
             <ul class="menu">
-                <li><a href="#team"><span class="span1">Find</span >-A Doctor</a></li>
-                <li><a href="#ourservices"><span class="span1">Our</span>-Services</a></li>
-                <li><a href="#testimonials"><span class="span1">Testi</span>-monials</a></li>
-                <li><a href="#gallery"><span class="span1">Gal</span>-lery</a></li>
-                <li><a href="#Our-Works"><span class="span1">Our</span>-Works</a></li>
+                <li><a href="articles.html" data-i18n="articles">Articles</a></li>
+                <li><a href="#team" data-i18n="find">Find A Doctor</a></li>
+                <li><a href="#ourservices" data-i18n="services">Our Services</a></li>
+                <li><a href="#testimonials" data-i18n="testi">Testi Monials</a></li>
+                <li><a href="#gallery" data-i18n="gallery">Gallery</a></li>
+                <li><a href="#Our-Works" data-i18n="work">Our Works</a></li>
                 
             </ul>
+            <div class="custom-select11">
+                <select >
+                    <option  value="en" data-i18n="english" selected>English</option>
+                    <option value="ar" data-i18n="arabic">Arabic</option>
+                    <option value="tr" data-i18n="tÜrkçe">TÜrkçe</option>
+                </select>
+           </div>
         </nav> <!--nav-end-header-->
     </section>
+
     
     <!--     slider     -->
     <section class="slider">
@@ -110,7 +120,7 @@
 
 
     <!--////////////////What-we-provide//////////////////////////  -->
-            <h3 class="our1">our-<span class="p5">servis</span> </h3>
+            <h3 class="our1" data-i18n="serr">our servis</h3>
             <div class="ou"></div>
             <div class="container1"  id="ourservices">
             
@@ -120,8 +130,8 @@
                     <img src="asets/images/ser-1.jpeg" alt="">
                 </div>
                 <div class="cdetail">
-                    <h2>Vitamins bag</h2>
-                    <p>
+                    <h2 data-i18n="vitamins">Vitamins bag</h2>
+                    <p data-i18n="bag">
                         It is a therapeutic bag containing vitamins that must be used immediately after the operation to nourish and support the transplanted follicles to obtain the complete result.
                     </p>
                 </div>
@@ -132,8 +142,8 @@
                     <img src="asets/images/ser-2.jpeg" alt="">
                 </div>
                 <div class="cdetail">
-                    <h2>Transportation</h2>
-                    <p>
+                    <h2 data-i18n="transportation">Transportation</h2>
+                    <p data-i18n="the">
                         
                         The patient is received to and from the airport and during the treatment period I provide the best services with cars.</p>
                 </div>
@@ -143,10 +153,9 @@
                     <img src="asets/images/ser-3.jpeg" alt="">
                 </div>
                 <div class="cdetail">
-                    <h2>Security</h2>
-                    <p>
-                        
-    After the operation, the patient will be given a certificate of guarantee for the number of follicles that were transplanted and a guarantee of the success of the operation. The <span>Reyhan-Hair</span> team will maintain continuous and constant communication before and after the operation while providing full support.
+                    <h2 data-i18n="security">Security</h2>
+                    <p data-i18n="after">
+    After the operation, the patient will be given a certificate of guarantee for the number of follicles that were transplanted and a guarantee of the success of the operation. The Reyhan-Hair team will maintain continuous and constant communication before and after the operation while providing full support.
                     </p>
                 </div>
             </div>
@@ -163,8 +172,8 @@
         </div>
         <!-- *****text******* -->
         <div class="our-story-text">
-            <h2>Türkiye is the world's first hair transplant!.</h2>
-            <p>Reyhan Hair is one of the best centers for hair transplantation in Istanbul due to its provision of the best operations with the latest technologies, the quality of doctors, the medical team, and the services provided to patients.
+            <h2 data-i18n="turkiye">Türkiye is the world's first hair transplant!.</h2>
+            <p data-i18n="reyhan">Reyhan Hair is one of the best centers for hair transplantation in Istanbul due to its provision of the best operations with the latest technologies, the quality of doctors, the medical team, and the services provided to patients.
                 While ensuring the best care for our clients and ensuring that clients get the best results
                 The operation is performed without the patient feeling any pain
                 And work to maintain his health and safety
@@ -175,40 +184,40 @@
 
 
     <!-- ///befor and after/////////////////////////////////////////// -->
-        <h3 class="our2">Our-<span class="p7">Works</span></h3> 
+        <h3 class="our2" data-i18n="work">Our Works</h3> 
         <div class="ou2"></div>
     <section class="befor-after" id="Our-Works">
         <div class="sliders">  
         <!--  /////////////////////////////////////////////////////-->
             <figure class="cd-image-container"> 
                 <img src="img/img-original-1.jpeg" alt="Original Image" >
-                <span class="cd-image-label" data-type="original">Before</span>
+                <span class="cd-image-label" data-type="original" data-i18n="before">Before</span>
         
                 <div class="cd-resize-img"> <!-- the resizable image on top -->
                     <img src="img/img-modified-1.jpeg" alt="Modified Image">
-                    <span class="cd-image-label" data-type="modified">After</span>
+                    <span class="cd-image-label" data-type="modified" data-i18n="afters">After</span>
                 </div>
                 <span class="cd-handle"></span>
             </figure> <!-- cd-image-container -->
     <!--  /////////////////////////////////////////////////////-->
             <figure class="cd-image-container"> 
                 <img src="img/img-original-2.jpeg" alt="Original Image" > 
-                <span class="cd-image-label" data-type="original">Before</span>
+                <span class="cd-image-label" data-type="original" data-i18n="before">Before</span>
 
                 <div class="cd-resize-img"> <!-- the resizable image on top -->
                     <img src="img/img-modified-2.jpeg" alt="Modified Image">
-                    <span class="cd-image-label" data-type="modified">After</span>
+                    <span class="cd-image-label" data-type="modified" data-i18n="afters">After</span>
                 </div>
                 <span class="cd-handle"></span>
             </figure> <!-- cd-image-container -->
     <!--  /////////////////////////////////////////////////////-->
             <figure class="cd-image-container"> 
                 <img src="img/img-original.jpg" alt="Original Image" >
-                <span class="cd-image-label" data-type="original">Before</span>
+                <span class="cd-image-label" data-type="original" data-i18n="before">Before</span>
 
                 <div class="cd-resize-img"> <!-- the resizable image on top -->
                     <img src="img/img-modified.jpg" alt="Modified Image">
-                    <span class="cd-image-label" data-type="modified">After</span>
+                    <span class="cd-image-label" data-type="modified" data-i18n="afters">After</span>
                 </div>
                 <span class="cd-handle"></span>
             </figure> <!-- cd-image-container -->
@@ -220,7 +229,7 @@
 
     <!-- //////Team/////////////////////////////////////////////// -->
         <div class="card-h4">
-            <h3 class="card-h3">Meet-Our-<span>Specialists</span></h3>
+            <h3 class="card-h3" data-i18n="meet">Meet Our Specialists</h3>
             <div class="ou3"></div>
         </div>
     <div class="card-num">  
@@ -238,7 +247,7 @@
             <div class="card-body">
                 <h1 class="card-title">NYC</h1>
                 <p class="card-sub-title">new your city</p>
-                <p class="card-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias unde eius in laudantium iusto et illum atque maxime a facilis, qui asperiores, reiciendis commodi voluptatum.</p>
+                <p class="card-info" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias unde eius in laudantium iusto et illum atque maxime a facilis, qui asperiores, reiciendis commodi voluptatum.</p>
                 
             </div>
         </div>
@@ -251,7 +260,7 @@
 
                 <!-- ****heading ***********-->
                 <div class="testimonials-heading">
-                    <h3 class="ou4">Our Patients<span>-FeedBack About Us</span></h3>
+                    <h3 class="ou4" data-i18n="feed">Our Patients FeedBack About Us</span></h3>
                     
                 </div>
             
@@ -376,37 +385,37 @@
 
 
             <!--Image Gallery  -->
-                    <h3 class="vb">Gal-<span>lery</span></h3>
+                    <h3 class="vb" data-i18n="gallery">Gallery</h3>
                     
             <div class="container" id="gallery">
                 
                 <div class="gallery">
-                    <a href="asets/images/g-4.jpeg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-4.jpeg" alt="">
+                    <a href="asets/images/p1.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p1.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-2.jpeg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-2.jpeg" alt="">
+                    <a href="asets/images/p2.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p2.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-3.jpeg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-3.jpeg" alt="">
+                    <a href="asets/images/p3.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p3.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-10.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-10.jpg" alt="">
+                    <a href="asets/images/p4.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p4.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-5.jpeg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-5.jpeg" alt="">
+                    <a href="asets/images/p5.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p5.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-6.jpeg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-6.jpeg" alt="">
+                    <a href="asets/images/p6.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p6.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-11.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-11.jpg" alt="">
+                    <a href="asets/images/p7.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p7.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-12.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-12.jpg" alt="">
+                    <a href="asets/images/p8.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p8.jpg" alt="">
                     </a>
-                    <a href="asets/images/g-13.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
-                        <img src="asets/images/g-13.jpg" alt="">
+                    <a href="asets/images/p9.jpg" data-lightbox="my-gallery" data-title="Pic Number 1">
+                        <img src="asets/images/p9.jpg" alt="">
                     </a>
                     
                 </div>
@@ -420,15 +429,15 @@
     <div class="form-10">
         
         <form action="/formPost" method="POST">
-            <h1 class="form-h1">Contact Form</h1>
-            <input class="form-input" type="text" name="first" placeholder="First Name" autocomplete="off" required>
+            <h1 class="form-h1" data-i18n="contact">Contact Form</h1>
+            <input class="form-input" type="text" name="first" placeholder="First Name" autocomplete="off" required >
             <input class="form-input" type="text" name="last" placeholder="Last Name" autocomplete="off" required>
             <input class="form-input" type="email" name="email" placeholder="Email Address" autocomplete="off" required>
             <br>
             <textarea class="form-textarea" rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
             <br>
             <div class="btnDiv">
-                <button class="form-btn" type="submit">Send Massage</button>
+                <button class="form-btn" type="submit" data-i18n="button">Send Massage</button>
             </div>
         </form>
     </div>
@@ -443,16 +452,16 @@
 
         <div class="footer-content">
             <h3>REYHAN HAIR</h3>
-            <p>Istanbul Şeşle</p>
+            <p>Şişli/Istanbul</p>
             <ul class="socils">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>            
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>            
+                <li><a href="https://www.facebook.com/profile.php?id=61553956633232&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/ryhanhair?igsh=aWt5amdod3pqY3Ry&utm_source=qr"><i class="fab fa-instagram"></i></a></li>            
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>            
             </ul>
             <div class="footer-bottum">
             
-                <P>+905536825550</P>
-                <p>www.homaed.com</p>
+                <P>+90(553)6825550</P>
+                <p>www.Reyhanhair.com</p>
                 <P></P>
             </div>
         </div>
@@ -572,6 +581,7 @@ if(auto){
 }
 
 
+
   
 
 
@@ -580,7 +590,9 @@ if(auto){
 
     
  </script>
+
 <script src="asets/js/lightbox-plus-jquery.min.js"></script>
+<script src="js/languic.js"></script>
 
 
 <!-- befor after -->
